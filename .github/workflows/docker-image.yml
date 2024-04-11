@@ -24,7 +24,7 @@ jobs:
       with:
         #build-args: # optional
         #build-contexts: src
-        cache-from: type=gha
-        cache-to: type=gha,mode=max
+        #cache-from: type=gha
+        #cache-to: type=gha,mode=max
         # context: src
         push: true # optional, default is false
